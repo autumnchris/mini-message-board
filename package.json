@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/autumnchris/mini-message-board/issues"
   },
-  "homepage": "https://github.com/autumnchris/mini-message-board#readme",
+  "homepage": "https://autumnchris-message-board-demo.herokuapp.com",
   "dependencies": {
     "ejs": "^3.0.1",
     "express": "^4.17.1",

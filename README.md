@@ -4,6 +4,10 @@ My project for the [Mini Message Board assignment](https://www.theodinproject.co
 
 ---
 
+## Demo
+
+View project demo at [https://autumnchris-message-board-demo.herokuapp.com](https://autumnchris-message-board-demo.herokuapp.com).
+
 ## Installation
 
 ```
