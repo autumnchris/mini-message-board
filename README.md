@@ -4,6 +4,11 @@ My project for the [Mini Message Board assignment](https://www.theodinproject.co
 
 ---
 
+## Built With
+* [Express.js](https://expressjs.com)
+* CSS3
+* [EJS](https://ejs.co)
+
 ## Demo
 
 View project demo at [https://autumnchris-message-board-demo.herokuapp.com](https://autumnchris-message-board-demo.herokuapp.com).
