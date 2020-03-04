@@ -1,7 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const indexRouter = require('./routes/index');
-const newMsgRouter = require('./routes/new-message');
 
 const app = express();
 const port = process.env.PORT || 3000;
@@ -14,7 +13,6 @@ app.use(bodyParser.urlencoded({extended: false}));
 app.use(express.static(`${__dirname}/public`));
 
 app.use('/', indexRouter);
-app.use('/new', newMsgRouter);
 
 app.use((req, res, next) => {
     res.status(404).render('404', {title: 'Page not found'});
