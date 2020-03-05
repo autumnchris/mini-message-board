@@ -3,6 +3,14 @@ html {
   background: linear-gradient(120deg, hsl(205, 100%, 10%), hsl(205, 100%, 20%)) fixed;
 }
 
+a,
+a:visited,
+a:hover,
+a:active,
+a:focus {
+  color: hsl(202, 100%, 85%);
+}
+
 footer {
   background: hsla(0, 0%, 0%, 0.3);
   border-top: 1px solid hsl(202, 100%, 28%);
