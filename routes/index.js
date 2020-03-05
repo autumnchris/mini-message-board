@@ -22,4 +22,8 @@ router.get('/', (req, res, next) => {
   res.render('index', {messages: dummyData});
 });
 
+router.get('/new', (req, res, next) => {
+  res.render('form', {title: 'Add a new Message'});
+});
+
 module.exports = router;
