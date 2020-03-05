@@ -23,7 +23,7 @@ router.get('/', (req, res, next) => {
 });
 
 router.get('/new', (req, res, next) => {
-  res.render('form', {title: 'Add a new Message'});
+  res.render('form', {title: 'Add a New Message'});
 });
 
 module.exports = router;
