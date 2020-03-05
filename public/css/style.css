@@ -1,6 +1,6 @@
 html {
-  background: hsl(205, 100%, 15%);
-  background: linear-gradient(120deg, hsl(205, 100%, 10%), hsl(205, 100%, 20%)) fixed;
+  background: hsl(202, 100%, 15%);
+  background: linear-gradient(120deg, hsl(202, 100%, 10%), hsl(202, 100%, 20%)) fixed;
 }
 
 a,
