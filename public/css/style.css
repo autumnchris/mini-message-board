@@ -11,6 +11,20 @@ a:focus {
   color: hsl(202, 100%, 85%);
 }
 
+.button,
+.button:visited,
+.button:hover,
+.button:active,
+.button:focus {
+  background: hsl(202, 100%, 85%);
+  border-radius: 3px;
+  color: hsl(202, 100%, 15%);
+  font-size: 1rem;
+  display: inline-block;
+  padding: 8px;
+  text-decoration: none;
+}
+
 header {
   padding-top: 30px;
 }
