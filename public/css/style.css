@@ -50,6 +50,49 @@ h2 {
   text-align: center;
 }
 
+main {
+  margin: auto;
+  max-width: 600px;
+  padding: 30px 0 70px;
+}
+
+.msg-board {
+  padding-top: 10px;
+}
+
+.msg-card {
+  background: hsla(0, 0%, 0%, 0.3);
+  border: 1px solid hsl(202, 100%, 28%);
+  border-radius: 4px;
+  margin: 6px 0;
+  padding: 15px;
+}
+
+.msg-card .msg-card-header {
+  color: hsl(0, 0%, 85%);
+  font-size: 0.8rem;
+  border-bottom: 1px solid hsl(202, 100%, 28%);
+  padding-bottom: 8px;
+}
+
+.msg-card span {
+  display: inline-block;
+  margin-top: 8px;
+}
+
+.msg-card .username {
+  color: hsl(202, 100%, 85%);
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-right: 12px;
+}
+
+.msg-card .message {
+  line-height: 1.2;
+  padding: 10px 0;
+}
+
 footer {
   background: hsla(0, 0%, 0%, 0.3);
   border-top: 1px solid hsl(202, 100%, 28%);
