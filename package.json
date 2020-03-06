@@ -1,5 +1,5 @@
 {
-  "name": "mini-message-board",
+  "name": "mini-message-board-demo",
   "version": "1.0.0",
   "description": "My project for the Mini Message Board assignment as part of the curriculum for the NodeJS course on The Odin Project.",
   "main": "server.js",
@@ -9,12 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/autumnchris/mini-message-board.git"
+    "url": "git+https://github.com/autumnchris/mini-message-board-demo.git"
   },
   "author": "autumnchris",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/autumnchris/mini-message-board/issues"
+    "url": "https://github.com/autumnchris/mini-message-board-demo/issues"
   },
   "homepage": "https://autumnchris-message-board-demo.herokuapp.com",
   "dependencies": {

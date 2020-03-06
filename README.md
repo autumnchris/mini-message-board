@@ -1,4 +1,4 @@
-# Mini Message Board
+# Mini Message Board Demo
 
 My project for the [Mini Message Board assignment](https://www.theodinproject.com/courses/nodejs/lessons/mini-message-board) as part of the curriculum for the [NodeJS course](https://www.theodinproject.com/courses/nodejs) on [The Odin Project](https://www.theodinproject.com).
 
@@ -18,8 +18,8 @@ View project demo at [https://autumnchris-message-board-demo.herokuapp.com](http
 ## Installation
 
 ```
-$ git clone https://github.com/autumnchris/mini-message-board.git
-$ cd mini-message-board
+$ git clone https://github.com/autumnchris/mini-message-board-demo.git
+$ cd mini-message-board-demo
 $ npm install
 $ npm start
 ```
