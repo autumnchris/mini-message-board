@@ -4,17 +4,17 @@ const dummyData = [
   {
     user: 'C-3PO',
     message: 'We\'re doomed!',
-    timestamp: new Date().toLocaleString()
+    timestamp: new Date()
   },
   {
     user: 'Obi-Wan Kenobi',
     message: 'Hello there!',
-    timestamp: new Date().toLocaleString()
+    timestamp: new Date()
   },
   {
     user: 'Leia Organa',
     message: 'Help me, Obi-Wan Kenobi. You\'re my only hope.',
-    timestamp: new Date().toLocaleString()
+    timestamp: new Date()
   }
 ];
 
@@ -30,7 +30,7 @@ router.post('/new', (req, res, next) => {
   dummyData.push({
     user: req.body.user,
     message: req.body.message,
-    timestamp: new Date().toLocaleString()
+    timestamp: new Date()
   });
   res.redirect('/');
 });

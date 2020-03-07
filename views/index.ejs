@@ -11,7 +11,7 @@
         <% messages.forEach(message => { %>
           <div class="msg-card">
             <div class="msg-card-header">
-              <span class="username"><%= message.user %></span><span class="timestamp"><%= message.timestamp %></span>
+              <span class="username"><%= message.user %></span><span class="timestamp"><%= message.timestamp.toLocaleString() %></span>
             </div>
             <div class="message"><%= message.message %></div>
           </div>
