@@ -9,12 +9,12 @@
       <a class="button new-message" href="/new" target="_self"><span class="fas fa-plus"></span> New</a>
       <div class="msg-board">
         <% messages.forEach(message => { %>
-          <div class="msg-card">
+          <article class="msg-card">
             <div class="msg-card-header">
-              <span class="username"><%= message.user %></span><span class="timestamp"><%= message.timestamp.toLocaleString() %></span>
+              <span class="username"><%= message.user %></span><span class="timestamp"><%= message.timestamp.toLocaleDateString() %></span>
             </div>
             <div class="message"><%= message.message %></div>
-          </div>
+          </article>
         <% }); %>
       </div>
     </main>
