@@ -1,25 +1,9 @@
 const express = require('express');
+const apiData = require('./api');
 const router = express.Router();
-const dummyData = [
-  {
-    user: 'C-3PO',
-    message: 'We\'re doomed!',
-    timestamp: new Date()
-  },
-  {
-    user: 'Obi-Wan Kenobi',
-    message: 'Hello there!',
-    timestamp: new Date()
-  },
-  {
-    user: 'Leia Organa',
-    message: 'Help me, Obi-Wan Kenobi. You\'re my only hope.',
-    timestamp: new Date()
-  }
-];
 
 router.get('/', (req, res, next) => {
-  res.render('index', {messages: dummyData});
+  res.render('index');
 });
 
 router.get('/new', (req, res, next) => {
@@ -27,10 +11,10 @@ router.get('/new', (req, res, next) => {
 });
 
 router.post('/new', (req, res, next) => {
-  dummyData.push({
+  apiData.dummyData.push({
     user: req.body.user,
     message: req.body.message,
-    timestamp: new Date()
+    timestamp: new Date().getTime()
   });
   res.redirect('/');
 });

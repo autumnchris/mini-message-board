@@ -7,17 +7,11 @@
     </header>
     <main>
       <a class="button new-message" href="/new" target="_self"><span class="fas fa-plus"></span> New</a>
-      <div class="msg-board">
-        <% messages.forEach(message => { %>
-          <article class="msg-card">
-            <div class="msg-card-header">
-              <span class="username"><%= message.user %></span><span class="timestamp"><%= message.timestamp.toLocaleDateString() %></span>
-            </div>
-            <div class="message"><%= message.message %></div>
-          </article>
-        <% }); %>
-      </div>
+      <div class="msg-board"></div>
+      <p class="message error-message"><span class="fa fa-exclamation-circle fa-lg fa-fw"></span> Unable to load messages in message board.</p>
     </main>
     <%- include ('./partials/footer') -%>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>

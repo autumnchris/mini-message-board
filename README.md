@@ -8,6 +8,9 @@ My project for the [Mini Message Board assignment](https://www.theodinproject.co
 * [Express.js](https://expressjs.com)
 * CSS3
 * [EJS](https://ejs.co)
+* AJAX
+* [axios](https://github.com/axios/axios)
+* JavaScript
 * [Font Awesome](https://fontawesome.com)
 * [Google Fonts](https://fonts.google.com)
 
