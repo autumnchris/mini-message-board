@@ -11,6 +11,7 @@ My project for the [Mini Message Board assignment](https://www.theodinproject.co
 * AJAX
 * [axios](https://github.com/axios/axios)
 * JavaScript
+* [Normalize.css](https://necolas.github.io/normalize.css)
 * [Font Awesome](https://fontawesome.com)
 * [Google Fonts](https://fonts.google.com)
 
