@@ -130,6 +130,7 @@ textarea:focus,
   color: hsl(202, 100%, 15%);
   cursor: pointer;
   line-height: normal;
+  margin: 0 5px;
   padding: 8px;
   width: auto;
 }
@@ -216,4 +217,12 @@ h2 {
   display: block;
   margin-bottom: 5px;
   text-transform: uppercase;
+}
+
+.button-group {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
