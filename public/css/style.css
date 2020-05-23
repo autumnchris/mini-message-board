@@ -140,6 +140,14 @@ textarea:focus,
   text-decoration: none;
 }
 
+.button-group {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .message {
   border-radius: 5px;
   line-height: 1.55;
@@ -217,12 +225,4 @@ h2 {
   display: block;
   margin-bottom: 5px;
   text-transform: uppercase;
-}
-
-.button-group {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
 }
