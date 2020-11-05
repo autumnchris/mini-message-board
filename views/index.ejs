@@ -6,12 +6,12 @@
       <%- include ('./partials/header-content') -%>
     </header>
     <main>
-      <a class="button new-message" href="/new" target="_self"><span class="fas fa-plus"></span> New</a>
-      <div class="msg-board"></div>
-      <p class="message error-message"><span class="fa fa-exclamation-circle fa-lg fa-fw"></span> Unable to load message board at this time.</p>
+      <div id="msg-board-container"></div>
     </main>
     <%- include ('./partials/footer') -%>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
-    <script src="/js/script.js"></script>
+    <script src="/public/bundle.js"></script>
+    <noscript>
+      <p class="message info-message"><span class="fa fa-info-circle fa-lg fa-fw"></span> This site uses JavaScript. Please enable JavaScript in your browser.</p>
+    </noscript>
   </body>
 </html>
