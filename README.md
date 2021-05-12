@@ -9,7 +9,7 @@ My project for the [Mini Message Board assignment](https://www.theodinproject.co
 * [Sass](http://sass-lang.com)
 * [EJS](https://ejs.co)
 * AJAX
-* [axios](https://github.com/axios/axios)
+* [Axios](https://axios-http.com)
 * JavaScript
 * [Webpack](https://webpack.js.org)
 * [Babel](https://babeljs.io)
