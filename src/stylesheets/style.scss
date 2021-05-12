@@ -4,6 +4,7 @@
 
 html {
   background: transparent;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   color: change-color($black, $lightness: 100%);
   font-family: $main-font;
@@ -11,8 +12,10 @@ html {
   letter-spacing: 1px;
   body {
     background: $blue;
+    background: -o-linear-gradient(330deg, change-color($blue, $lightness: 10%), change-color($blue, $lightness: 20%)) fixed;
     background: linear-gradient(120deg, change-color($blue, $lightness: 10%), change-color($blue, $lightness: 20%)) fixed;
     min-height: 100%;
+    -ms-scroll-chaining: none;
     overscroll-behavior: none;
     padding: 0 20px;
     position: relative;
@@ -44,6 +47,7 @@ html {
     h4,
     h5,
     h6 {
+      -webkit-box-sizing: border-box;
       box-sizing: border-box;
       margin-top: 0;
     }
@@ -61,6 +65,7 @@ form,
 label,
 input,
 textarea {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -85,6 +90,18 @@ textarea {
   max-width: 500px;
   padding: 10px;
   width: 100%;
+  &::-webkit-input-placeholder {
+    color: change-color($black, $lightness: 60%);
+  }
+  &::-moz-placeholder {
+    color: change-color($black, $lightness: 60%);
+  }
+  &:-ms-input-placeholder {
+    color: change-color($black, $lightness: 60%);
+  }
+  &::-ms-input-placeholder {
+    color: change-color($black, $lightness: 60%);
+  }
   &::placeholder {
     color: change-color($black, $lightness: 60%);
   }
@@ -109,6 +126,7 @@ input:focus,
 select:focus,
 textarea:focus,
 [tabindex]:focus {
+  -webkit-box-shadow: 0 0 3px 3px hsla(203, 95%, 62%, 0.8);
   box-shadow: 0 0 3px 3px hsla(203, 95%, 62%, 0.8);
   outline: none;
 }
@@ -135,8 +153,6 @@ textarea:focus,
 
 .button-group {
   display: -webkit-box;
-  display: -moz-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
 }
@@ -228,5 +244,7 @@ noscript .info-message {
   position: absolute;
   text-align: center;
   top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
