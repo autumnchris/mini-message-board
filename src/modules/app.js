@@ -35,7 +35,7 @@ const App = (() => {
   }
 
   function renderNewMessageForm() {
-    document.getElementById('new-message').innerHTML = `<form class="resize-form" method="POST" action="/new">
+    document.getElementById('new-message').innerHTML = `<form method="POST" action="/new">
       <div class="form-group">
         <label for="user-input">User</label>
         <input type="text" name="user" id="user-input" required />
