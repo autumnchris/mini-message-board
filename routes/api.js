@@ -22,5 +22,7 @@ router.get('/messages', (req, res, next) => {
   res.json(dummyData);
 });
 
-exports.dummyData = dummyData;
-exports.router = router;
+module.exports = {
+  router,
+  dummyData
+};

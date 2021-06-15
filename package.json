@@ -4,9 +4,8 @@
   "description": "My project for the Mini Message Board assignment as part of the curriculum for the NodeJS course on The Odin Project.",
   "main": "server.js",
   "scripts": {
-    "build": "webpack --mode production",
-    "start": "npm run build && node server",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon server",
+    "start": "node server"
   },
   "repository": {
     "type": "git",
@@ -19,22 +18,11 @@
   },
   "homepage": "https://autumnchris-message-board-demo.herokuapp.com",
   "dependencies": {
-    "axios": "^0.21.1",
-    "babel-core": "^6.26.3",
-    "babel-loader": "^7.1.5",
-    "babel-preset-env": "^1.7.0",
     "body-parser": "^1.19.0",
-    "css-loader": "^5.0.0",
     "ejs": "^3.0.1",
-    "express": "^4.17.1",
-    "mini-css-extract-plugin": "^1.1.1",
-    "node-sass": "^4.14.1",
-    "normalize.css": "^8.0.1",
-    "sass-loader": "^10.0.3",
-    "style-loader": "^2.0.0",
-    "webpack": "^4.44.2",
-    "webpack-cli": "^3.3.12",
-    "webpack-dev-middleware": "^3.7.2",
-    "webpack-hot-middleware": "^2.25.0"
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
   }
 }

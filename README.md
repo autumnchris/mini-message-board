@@ -6,28 +6,35 @@ My project for the [Mini Message Board assignment](https://www.theodinproject.co
 
 ## Built With
 * [Express.js](https://expressjs.com)
-* [Sass](http://sass-lang.com)
+* CSS3
 * [EJS](https://ejs.co)
 * AJAX
 * [Axios](https://axios-http.com)
 * JavaScript
-* [Webpack](https://webpack.js.org)
-* [Babel](https://babeljs.io)
 * [Normalize.css](https://necolas.github.io/normalize.css)
 * [Font Awesome](https://fontawesome.com)
 * [Google Fonts](https://fonts.google.com)
+* [nodemon](https://nodemon.io)
 
 ## Demo
 
 View project demo at [https://autumnchris-message-board-demo.herokuapp.com](https://autumnchris-message-board-demo.herokuapp.com).
 
-## Installation
+## Instructions
 
+After forking and cloning, navigate to the repository in your command line and install the NPM packages:
 ```
-$ git clone https://github.com/autumnchris/mini-message-board-demo.git
-$ cd mini-message-board-demo
-$ npm install
-$ npm start
+npm install
 ```
 
-Go to `http://localhost:3000`.
+Run the following script in your command line if starting the repository in development mode:
+```
+npm run dev
+```
+
+Run the following script in your command line if starting the repository in production mode:
+```
+npm start
+```
+
+Once the server is running, go to `http://localhost:3000` in your browser.
