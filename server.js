@@ -14,7 +14,7 @@ app.use(bodyParser.urlencoded({extended: false}));
 app.use(express.static(`${__dirname}/public`));
 
 app.use('/', indexRouter);
-app.use('/api', apiRouter.router);
+app.use('/api', apiRouter);
 
 app.use((req, res, next) => {
     res.status(404).render('404', {title: 'Page not found', mainHeading: '404: Page not found'});

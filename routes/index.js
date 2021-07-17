@@ -1,4 +1,5 @@
 const express = require('express');
+const messagesData = require('../messages-data');
 const apiData = require('./api');
 const router = express.Router();
 
@@ -11,7 +12,7 @@ router.get('/new', (req, res, next) => {
 });
 
 router.post('/new', (req, res, next) => {
-  apiData.dummyData.push({
+  messagesData.push({
     user: req.body.user,
     message: req.body.message,
     timestamp: new Date().getTime()
