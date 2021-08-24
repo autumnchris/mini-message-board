@@ -1,7 +1,7 @@
 {
   "name": "mini-message-board-demo",
   "version": "1.0.0",
-  "description": "My project for the Mini Message Board assignment as part of the curriculum for the NodeJS course on The Odin Project.",
+  "description": "An Express.js app that uses sample filler data to present a message board and the ability to add new messages to it.",
   "main": "server.js",
   "scripts": {
     "dev": "nodemon server",
