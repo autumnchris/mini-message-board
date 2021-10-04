@@ -17,14 +17,14 @@
     <script src="/js/script.js"></script>
     <script>
       function renderNewMessageForm() {
-        document.getElementById('new-message').innerHTML = `<form class="new-message-form" method="POST" action="/new">
+        document.getElementById('new-message').innerHTML = `<form class="new-message-form" method="POST" action="/new" novalidate>
           <div class="form-group">
             <label for="user-input">User</label>
-            <input type="text" name="user" id="user-input" required />
+            <input type="text" name="user" id="user-input" />
           </div>
           <div class="form-group">
             <label for="message-input">Message</label>
-            <textarea name="message" rows="8" id="message-input" required></textarea>
+            <textarea name="message" rows="8" id="message-input"></textarea>
           </div>
           <div class="button-group">
             <input type="submit" class="button submit" value="Post" />
