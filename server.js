@@ -1,11 +1,13 @@
 const express = require('express');
 const bodyParser = require('body-parser');
+const expressLayouts = require('express-ejs-layouts');
 const indexRouter = require('./routes/index');
 const apiRouter = require('./routes/api');
 
 const app = express();
 const port = process.env.PORT || 3000;
 
+app.use(expressLayouts);
 app.set('views', `${__dirname}/views`);
 app.set('view engine', 'ejs');
 
