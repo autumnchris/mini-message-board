@@ -1,23 +1,11 @@
 const express = require('express');
-const messagesData = require('../messages-data');
-const apiData = require('./api');
+const messageController = require('../controllers/message-controller');
 const router = express.Router();
 
-router.get('/', (req, res, next) => {
-  res.render('index');
-});
+router.get('/', messageController.fetchHomepage);
 
-router.get('/new', (req, res, next) => {
-  res.render('form', {title: 'Add a New Message'});
-});
+router.get('/new', messageController.fetchNewMessageForm);
 
-router.post('/new', (req, res, next) => {
-  messagesData.push({
-    user: req.body.user,
-    message: req.body.message,
-    timestamp: new Date().getTime()
-  });
-  res.redirect('/');
-});
+router.post('/new', messageController.createNewMessage);
 
 module.exports = router;

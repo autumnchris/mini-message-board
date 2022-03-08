@@ -230,7 +230,7 @@ h2 {
   margin-right: 12px;
 }
 
-.msg-board .msg-card .msg {
+.msg-board .msg-card .msg-content {
   padding: 10px 0;
 }
 
@@ -249,16 +249,4 @@ h2 {
   background: hsl(349, 96%, 95%);
   border: 1px solid hsl(349, 96%, 90%);
   color: hsl(349, 96%, 26%);
-}
-
-.info-message {
-  background: hsl(204, 100%, 95%);
-  border: 1px solid hsl(204, 100%, 90%);
-  color: hsl(204, 100%, 26%);
-}
-
-noscript .info-message {
-  margin: 0 auto;
-  min-width: 280px;
-  text-align: center;
 }

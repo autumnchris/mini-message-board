@@ -10,9 +10,6 @@ Inspired by the [Mini Message Board assignment](https://www.theodinproject.com/p
 * [Express.js](https://expressjs.com)
 * CSS3
 * [EJS](https://ejs.co)
-* AJAX
-* [Axios](https://axios-http.com)
-* JavaScript
 * [Normalize.css](https://necolas.github.io/normalize.css)
 * [Font Awesome](https://fontawesome.com)
 * [Google Fonts](https://fonts.google.com)
