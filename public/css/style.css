@@ -1,10 +1,12 @@
 /* BASE PAGE STYLES */
 
-html {
-  background: transparent;
+* {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  color: hsl(0, 0%, 100%);
+}
+
+html {
+  background: transparent;
   font-family: "Ubuntu Mono", sans-serif;
   height: 100%;
   letter-spacing: 1px;
@@ -14,6 +16,7 @@ body {
   background: hsl(202, 100%, 15%);
   background: -o-linear-gradient(330deg, hsl(202, 100%, 10%), hsl(202, 100%, 20%)) fixed;
   background: linear-gradient(120deg, hsl(202, 100%, 10%), hsl(202, 100%, 20%)) fixed;
+  color: hsl(0, 0%, 100%);
   min-height: 100%;
   -ms-scroll-chaining: none;
   overscroll-behavior: none;
@@ -52,72 +55,22 @@ h3,
 h4,
 h5,
 h6 {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
   margin-top: 0;
 }
 
-/* BASE ELEMENT STYLES */
-
-div,
-header,
-main,
-footer,
-article,
-form,
-label,
-input,
-textarea {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+h1 {
+  color: hsl(204, 100%, 85%);
+  font-family: "Nova Square", "Ubuntu Mono", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  letter-spacing: 3px;
+  line-height: 1.45;
+  padding-top: 20px;
 }
 
-button,
-button:hover,
-button:active,
-button:focus,
-input,
-optgroup,
-select,
-textarea {
-  font-family: inherit;
-}
-
-input,
-textarea {
-  border: 0;
-  border-radius: 3px;
-  color: hsl(0, 0%, 20%);
-  letter-spacing: 1px;
-  line-height: 1.3;
-  max-width: 500px;
-  padding: 10px;
-  width: 100%;
-}
-
-input::-webkit-input-placeholder,
-textarea::-webkit-input-placeholder  {
-  color: hsl(0, 0%, 60%);
-}
-
-input::-moz-placeholder,
-textarea::-moz-placeholder {
-  color: hsl(0, 0%, 60%);
-}
-
-input:-ms-input-placeholder,
-textarea:-ms-input-placeholder {
-  color: hsl(0, 0%, 60%);
-}
-
-input::-ms-input-placeholder,
-textarea::-ms-input-placeholder {
-  color: hsl(0, 0%, 60%);
-}
-
-input::placeholder,
-textarea::placeholder {
-  color: hsl(0, 0%, 60%);
+h2 {
+  font-size: 1.2rem;
+  font-weight: 400;
 }
 
 a,
@@ -145,33 +98,22 @@ textarea:focus,
   outline: none;
 }
 
-.button,
-.button:visited,
-.button:hover,
-.button:active,
-.button:focus {
-  background: hsl(202, 100%, 85%);
-  border: 0;
-  border-radius: 3px;
-  color: hsl(202, 100%, 15%);
-  cursor: pointer;
-  line-height: normal;
-  margin: 0 5px;
-  padding: 8px;
-  width: auto;
+button,
+button:hover,
+button:active,
+button:focus,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
 }
 
-.button:hover {
-  background: hsl(202, 100%, 80%);
-  text-decoration: none;
+.fa-rebel {
+  color: hsl(204, 100%, 85%);
 }
 
-.button-group {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
+/* Message styles */
 .message {
   border-radius: 5px;
   font-family: sans-serif;
@@ -180,69 +122,6 @@ textarea:focus,
   max-width: 800px;
   padding: 15px 10px;
   text-align: center;
-}
-
-/* SPECIFIC ELEMENT STYLES */
-
-.fa-rebel {
-  color: hsl(204, 100%, 85%);
-}
-
-h1 {
-  color: hsl(204, 100%, 85%);
-  font-family: "Nova Square", "Ubuntu Mono", sans-serif;
-  font-size: 1.5rem;
-  font-weight: 400;
-  letter-spacing: 3px;
-  line-height: 1.45;
-  padding-top: 20px;
-}
-
-h2 {
-  font-size: 1.2rem;
-  font-weight: 400;
-}
-
-.msg-board {
-  padding-top: 12px;
-}
-
-.msg-board .msg-card {
-  background: hsla(0, 0%, 0%, 0.3);
-  border: 1px solid hsl(204, 100%, 28%);
-  border-radius: 4px;
-  margin: 6px 0;
-  padding: 15px;
-}
-
-.msg-board .msg-card .msg-card-header {
-  border-bottom: 1px solid hsl(204, 100%, 28%);
-  color: hsl(0, 0%, 85%);
-  font-size: 0.8rem;
-  line-height: 1.5;
-}
-
-.msg-board .msg-card .username {
-  color: hsl(204, 100%, 85%);
-  font-size: 1.1rem;
-  font-weight: 700;
-  letter-spacing: 2px;
-  margin-right: 12px;
-}
-
-.msg-board .msg-card .msg-content {
-  padding: 10px 0;
-}
-
-.form-group {
-  margin-bottom: 20px;
-}
-
-.form-group label {
-  color: hsl(204, 100%, 85%);
-  display: block;
-  margin-bottom: 5px;
-  text-transform: uppercase;
 }
 
 .error-message {
