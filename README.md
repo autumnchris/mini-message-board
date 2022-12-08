@@ -17,7 +17,7 @@ Inspired by the [Mini Message Board assignment](https://www.theodinproject.com/p
 
 ## Demo
 
-View project demo at [https://autumnchris-message-board-demo.herokuapp.com](https://autumnchris-message-board-demo.herokuapp.com).
+View project demo at [https://autumnchris-mini-message-board-demo.onrender.com](https://autumnchris-mini-message-board-demo.onrender.com).
 
 ## Instructions
 
