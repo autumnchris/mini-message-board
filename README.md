@@ -2,7 +2,7 @@
 
 An Express.js app that uses sample filler data to present a message board and the ability to add new messages to it.
 
-Inspired by the [Mini Message Board assignment](https://www.theodinproject.com/paths/full-stack-javascript/courses/nodejs/lessons/mini-message-board) as part of the curriculum for the [NodeJS course](https://www.theodinproject.com/paths/full-stack-javascript/courses/nodejs) on [The Odin Project](https://www.theodinproject.com).
+Inspired by the [Mini Message Board assignment](https://www.theodinproject.com/lessons/node-path-nodejs-mini-message-board) as part of the curriculum for the [NodeJS Course](https://www.theodinproject.com/paths/full-stack-javascript/courses/nodejs) on [The Odin Project](https://www.theodinproject.com).
 
 ---
 
