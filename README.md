@@ -8,7 +8,10 @@ Inspired by the [Mini Message Board assignment](https://www.theodinproject.com/l
 
 ## Built With
 * [Express.js](https://expressjs.com)
+* [Node.js](https://nodejs.org/en)
+* JavaScript
 * CSS3
+* HTML5
 * [EJS](https://ejs.co)
 * [Normalize.css](https://necolas.github.io/normalize.css)
 * [Font Awesome](https://fontawesome.com)
