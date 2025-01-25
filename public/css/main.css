@@ -28,6 +28,11 @@
   text-decoration: none;
 }
 
+.button.new-message .icon {
+  padding-top: 2px;
+  vertical-align: top;
+}
+
 /* Message board styles */
 .msg-board {
   padding-top: 12px;
