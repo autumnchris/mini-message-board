@@ -79,11 +79,10 @@ a:hover,
 a:active,
 a:focus {
   color: hsl(202, 100%, 85%);
-  text-decoration: none;
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a:focus,
