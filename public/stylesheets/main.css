@@ -26,12 +26,6 @@
 
 .button:hover {
   background: hsl(202, 100%, 80%);
-  text-decoration: none;
-}
-
-.button.new-message .icon {
-  padding-top: 2px;
-  vertical-align: top;
 }
 
 /* Message board styles */
@@ -56,6 +50,7 @@
 
 .msg-board .msg-card .username {
   color: hsl(204, 100%, 85%);
+  font-family: "Ubuntu Mono Bold", sans-serif;
   font-size: 1.1rem;
   font-weight: 700;
   letter-spacing: 2px;

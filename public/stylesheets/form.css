@@ -47,3 +47,10 @@ textarea::placeholder {
   margin-bottom: 5px;
   text-transform: uppercase;
 }
+
+.button-group .button[type=submit],
+.button-group .button[type=submit]:hover,
+.button-group .button[type=submit]:active,
+.button-group .button[type=submit]:focus {
+  font-weight: 400;
+}

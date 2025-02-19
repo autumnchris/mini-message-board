@@ -1,3 +1,28 @@
+@font-face {
+  font-family: "Nova Square";
+  src: url(../assets/fonts/NovaSquare-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Ubuntu Mono Regular";
+  src: url(../assets/fonts/UbuntuMono-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Ubuntu Mono Bold";
+  src: url(../assets/fonts/UbuntuMono-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Font Awesome 6 Free";
+  src: url(../assets/fonts/fa-solid-900.ttf);
+}
+
+@font-face {
+  font-family: "Font Awesome 6 Brands";
+  src: url(../assets/fonts/fa-brands-400.ttf);
+}
+
 /* BASE PAGE STYLES */
 
 * {
@@ -7,7 +32,7 @@
 
 html {
   background: transparent;
-  font-family: "Ubuntu Mono", sans-serif;
+  font-family: "Ubuntu Mono Regular", sans-serif;
   height: 100%;
   letter-spacing: 1px;
 }
@@ -60,7 +85,7 @@ h6 {
 
 h1 {
   color: hsl(204, 100%, 85%);
-  font-family: "Nova Square", "Ubuntu Mono", sans-serif;
+  font-family: "Nova Square", "Ubuntu Mono Regular", sans-serif;
   font-size: 1.5rem;
   font-weight: 400;
   letter-spacing: 3px;
